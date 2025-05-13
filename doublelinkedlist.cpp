@@ -65,4 +65,8 @@ void addNode()
             previous->next = current;   // step 1.d: move the previous to the current
             newNode->prev = previous;   // step 1.e: move the current to the next 
         }
+        //set nilai next node baru = current dan prev node baru = previous 
+        newNode->next = current; // step 4: make the next field of the new node
+        newNode->prev = previous; // step 5: make the previous field of the new node
+
         
