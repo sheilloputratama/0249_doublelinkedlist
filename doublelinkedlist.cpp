@@ -28,4 +28,8 @@ void addNode()
     cin >> newNode->name; // assign value to the data field of th
 
 
+    //insert the new node in the list
+    //kondisi jika star == null atau noMhs node baru <= noMhs start
+    if (START == NULL )
+    {
     
