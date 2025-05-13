@@ -142,4 +142,12 @@ void deleteNode()
             START->prev = NULL;
         }
     }
+    else
+    { // node to be delete is not the first node
+        previous->next = current->next;
+        if (current->next != NULL)
+        { // if there's a successor, update its prev 
+            current->next->prev = previous;
+        }
+    }
     
