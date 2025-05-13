@@ -4,3 +4,9 @@ using namespace std;
 
 
 
+struct Node
+{
+    // deklarasi noMhs dan name untuk menampung data
+    int noMhs;
+    string name;
+    
