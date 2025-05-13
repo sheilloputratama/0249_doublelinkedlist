@@ -42,4 +42,9 @@ void addNode()
     //  if the list empty, make the new node the star
     //  jika list kosong, maka node nextnya adalah star
     newNode->next = START; //step 3: make the new node point to the frst noMhs
+    // kondisi jika start tidak memiliki nilai atau tidak kosong 
+    if (START != NULL)
+    {
+        START->prev = newNode; //step 4: make the firts node point to the 
+    }
     
