@@ -133,4 +133,13 @@ void deleteNode()
         return;
     }
 
+    //node to be delete in the firts node
+    if (current = START)
+    {
+        START = START->next; //step 2; update the start pointer
+        if (START != NULL)
+        {
+            START->prev = NULL;
+        }
+    }
     
