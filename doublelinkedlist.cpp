@@ -39,4 +39,7 @@ void addNode()
         cout << "\033 [31mDuplicate roll numbers not allowed\033[0m" << endl;
         return;
     }
+    //  if the list empty, make the new node the star
+    //  jika list kosong, maka node nextnya adalah star
+    newNode->next = START; //step 3: make the new node point to the frst noMhs
     
